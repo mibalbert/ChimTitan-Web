@@ -7,7 +7,6 @@
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { Button } from "../ui/button";
 import { FaCartPlus } from "react-icons/fa6";
 

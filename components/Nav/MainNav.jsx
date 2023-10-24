@@ -7,7 +7,7 @@
 import { useEffect, useState } from "react";
 import { MobileNav } from "./MobileNav";
 import { cn } from "@/lib/utils";
-import NavMenu from "./NavMenu";
+// import NavMenu from "./NavMenu";
 import Image from "next/image";
 
 const MainNav = () => {
@@ -49,7 +49,7 @@ const MainNav = () => {
         </div>
         <div className="flex items-center">1993</div>
         <div className="hidden gap-4 lg:flex">
-          <NavMenu isSticky={isSticky} />
+          {/* <NavMenu isSticky={isSticky} /> */}
         </div>
         <div className="lg:hidden">
           <MobileNav />
