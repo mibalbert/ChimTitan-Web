@@ -72,7 +72,7 @@ const data = [
 
 const Categories = () => {
   return (
-    <div className="w-full h-full pt-20 pb-24 space-y-12 bg-zinc-100">
+    <div className="w-full h-full pt-20 pb-24 space-y-12 ">
       <div className="max-w-screen-xl mx-auto font-serif text-3xl text-center">
         Select your industry
       </div>

@@ -6,17 +6,20 @@
 
 import {
   Dialog,
+  DialogContent,
   DialogContentMenu,
   DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+
 import { cn } from "@/lib/utils";
+
 const NavMenu = ({ isSticky }) => {
   return (
     <Dialog>
-      <DialogTrigger className="px-3 py-2">Open</DialogTrigger>
+      <DialogTrigger>Meniu</DialogTrigger>
       <DialogContentMenu
         className={cn(
           "w-full max-w-7xl   transition-all duration-200",

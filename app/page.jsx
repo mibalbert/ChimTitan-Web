@@ -13,9 +13,9 @@ export default function Home() {
     <main className="">
       <Hero />
       <AboutUs />
+      <RecomendedProducts />
       <Categories />
       <OurPartners />
-      <RecomendedProducts />
     </main>
   );
 }

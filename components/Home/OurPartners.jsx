@@ -139,35 +139,33 @@ const OurPartners = () => {
   );
 
   return (
-    <div className="w-full py-16">
-      <div className="w-full py-10 mx-auto space-y-20 max-w-7xl">
-        <div className="w-full mx-auto font-serif text-3xl text-center max-w-7xl">
-          Our Partners
-        </div>
-        <div className="overflow-hidden" ref={emblaRef}>
-          <div className="flex">
-            {carouselData.map(({ id, src, title }) => {
-              const itemStyle = {
-                flex: `0 0 ${width}%`,
-              };
-              return (
-                <div
-                  className="relative mx-3 text-center"
-                  style={itemStyle}
-                  key={id}
-                >
-                  <Image
-                    src={src}
-                    width={100}
-                    height={50}
-                    className="object-contain mx-auto "
-                    alt={title}
-                  />
-                  <div className="py-3 text-sm text-zinc-600">{title}</div>
-                </div>
-              );
-            })}
-          </div>
+    <div className="w-full py-5 mx-auto space-y-10 max-w-7xl">
+      <div className="w-full mx-auto font-serif text-3xl text-center max-w-7xl">
+        Our Partners
+      </div>
+      <div className="overflow-hidden" ref={emblaRef}>
+        <div className="flex">
+          {carouselData.map(({ id, src, title }) => {
+            const itemStyle = {
+              flex: `0 0 ${width}%`,
+            };
+            return (
+              <div
+                className="relative mx-3 text-center"
+                style={itemStyle}
+                key={id}
+              >
+                <Image
+                  src={src}
+                  width={100}
+                  height={50}
+                  className="object-contain mx-auto "
+                  alt={title}
+                />
+                <div className="py-3 text-sm text-zinc-600">{title}</div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

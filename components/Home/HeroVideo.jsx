@@ -45,14 +45,14 @@ const HeroVideo = ({ className }) => {
 
   return (
     <div className={cn("relative w-full h-full   ", className)}>
-      <Image
+      {/* <Image
         src={"/hero.jpg"}
         alt="asd"
         width={1000}
         height={500}
-        className={"relative object-cover w-full  h-[80vh] md:max-h-[70vh]"}
+        className={"relative object-cover w-full  h-[90vh] md:max-h-[80vh]"}
         priority
-      />
+      /> */}
       {/* <Image
         src={"/hero.jpg"}
         alt="asd"
@@ -62,16 +62,16 @@ const HeroVideo = ({ className }) => {
         priority
       />
       <div className="absolute top-0 left-0 z-10 w-full h-full bg-gradient-to-br from-black/5 via-black/50 to-transparent"></div> */}
-      {/* <video
-        key={src}
-        className={"relative object-cover w-full h-[80vh] lg:h-[80vh]"}
+      <video
+        key={"hero video"}
+        className={"relative object-cover w-full h-[80vh] lg:h-[75vh]"}
         autoPlay
         loop
         muted
       >
-        <source src={src} type="video/mp4" />
-      </video> */}
-      <div className="absolute top-0 left-0 z-10 w-full h-full bg-gradient-to-r from-black/70 to-black/70"></div>
+        <source src={"/hero-video.mp4"} type="video/mp4" />
+      </video>
+      {/* <div className="absolute top-0 left-0 z-10 w-full h-full bg-gradient-to-r from-[10%] from-black/30  via-[30%] via-black/50 to-[70%] to-transparent "></div> */}
       {/* <div className="absolute top-0 left-0 z-10 w-full h-full bg-gradient-to-br from-black/5 via-black/50 to-transparent"></div> */}
       {/* <div className="absolute top-50 left-50 z-10 transform -translate-x-1/2 -translate-y-1/2 w-60% h-60% bg-gradient-to-br from-black/5 via-black/50 to-transparent"></div> */}
       {/* <div className="absolute transform -translate-x-1/2 -translate-y-1/2 w-[30%] top-1/2 lef-1/2 h-[30%] rounded-full bg-gradient-to-br from-white/20 via-white/50 to-transparent"></div> */}
