@@ -62,7 +62,7 @@ const MainNav = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="shadow-xl shadow-black">
         <NavigationMenuBig isSticky={isSticky} />
       </section>
     </>

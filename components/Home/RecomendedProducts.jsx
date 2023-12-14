@@ -49,6 +49,8 @@ const products = [
 ];
 
 const RecomendedProducts = () => {
+  const {cart}=useCart
+  
   const [emblaRef] = useEmblaCarousel({
     loop: false,
     dragFree: true,
@@ -93,7 +95,7 @@ const RecomendedProducts = () => {
                       >
                         Learn More
                       </div>
-                      <button className="flex items-center justify-center col-span-1 text-center transition-all duration-100 bg-white border rounded-md group hover:border-zinc-400 border-zinc-300 hover:cursor-pointer hover:scale-110">
+                      <button onClick={()=>} className="flex items-center justify-center col-span-1 text-center transition-all duration-100 bg-white border rounded-md group hover:border-zinc-400 border-zinc-300 hover:cursor-pointer hover:scale-110">
                         <FaCartPlus className="w-4 h-4 group-hover:text-zinc-900 text-zinc-700" />
                       </button>
                     </div>
